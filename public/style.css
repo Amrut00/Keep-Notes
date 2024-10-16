@@ -1,0 +1,60 @@
+body{
+    background-color: #9f9f9f;
+    color: #d5d6d6;
+    margin: 0;
+
+}
+
+header{
+    background-color: #303030;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+h1{
+    font-size: 2rem;
+    color: orange;
+    margin : 0;
+}
+
+.allPosts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: #303030;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.user, .content, .date {
+    flex-grow: 1; 
+    margin: 5px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    margin-top: 10px; 
+}
+
+button{
+    width: 80px;
+    height: 25px;
+}
